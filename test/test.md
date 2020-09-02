@@ -1,0 +1,32 @@
+```yolol
+// Commenting code is helpful... Unless you need space in YOLOL :(
+a = 10^100
+b = 10^a
+c = b * -3
+
+x = 3.1410
+
+d = 9999999^99999998
+e = -99999999^9999998
+f = -99999999^9999997
+
+
+n0=(((-(1+2)-3)*4)/5)%(6^7)
+n1=sqrt abs asin sin acos cos atan tan 0
+n2=1<2<=3>4>=5==6!=7
+v0e0=n+1
+v1e0=abs (1+v0e0+1)
+v2e0=v0e0 v2e1=v0e0
+n3=0+v0e0*v0e0+1+v0e0
+
+g1=(ASIN(ABy/AB))
+
+
+a=5 b=3 c=0
+if a%2!=b%2 then c+1 end c*2 a/=2 b/=2 if a+b>0 then goto 2 end
+
+
+:external = 11
+:123abc = 33
+stringy = "Aww Snap"
+```

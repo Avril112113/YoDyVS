@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Yolol",
+	"scopeName": "source.yolol",
+	"patterns": [
+		{
+			"name": "string.quoted.double",
+			"match": "(?i)\"( |\\!|[#-~])*\""
+		},
+		{
+			"name": "keyword.control",
+			"match": "(?i)\\bif|then|else|end|goto\\b"
+		},
+		{
+			"name": "keyword.operator.new",
+			"match": "(?i)\\band|or|not|abs|sqrt|sin|cos|tan|asin|acos|atan\\b"
+		},
+		{
+			"name": "support.function",
+			"match": "(?i)[0-9]+(\\.[0-9]+)?"
+		},
+		{
+			"name": "variable.name",
+			"match": "(?i):[a-z0-9]+",
+			"captures": {
+				"0": {
+					"name": "strong"
+				}
+			}
+		},
+		{
+			"name": "variable.name",
+			"match": "(?i)[a-z]+[a-z0-9]*"
+		},
+		{
+			"name": "comment.line",
+			"match": "(?i)//.*"
+		}
+	]
+}
